@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- Aritmatic Operators - _ ,-,/,*,**,%,++,-- -->
+ <script>
+    var a = 10;
+    var b = 4;
+    var c = a + b; //binary
+    document.write(c + "<br>");
+    c++; //unary
+    c++;
+    c++;
+    c--;
+    c++;
+    c--;
+    c++; //17 //9
+    document.write(c + "<br>");
+    </script>
+
+    <!-- Assignment Operotors =, +=,-=,*= -->
+     <script>
+        var x = 10;
+        var y = 12;
+        x +=y;
+        // x = x + y;
+        document.write(x + "<br>"); //22
+        document.write(y + "<br>"); //12
+     </script>
+
+     <!-- comparison operators - <,>,<=,==,=== -->
+      <script>
+        var p = 17;
+        var q = "17";
+
+
+        document.write("<br>");
+        if(p==q){
+            document.write("true");
+         }else{
+            document.write("false");
+         }
+      </script>
+
+
+   <!-- logical operators && ,|| , ! -->
+    <script>
+        document.write("<br>");
+        var age = 17;
+        if(age >= 18 && age <=100){
+            document.write("Eligible for vote");
+        }else{
+            document.write("Not Eligible");
+        }
+    </script>
+    <script>
+         document.write("<br>"); 
+         var day =  "Sunday";
+         if(day === "Saturday" || day === "Sunday"){
+            document.write("Its weekend");
+         }else{
+            document.write("Its Weekdays");
+         }
+    </script>
+    <script>
+         document.write("<br>"); 
+        let our_age = 16;
+        let eligibility =(our_age >= 18) ? "Eligible for vote" :"Not Eligible";
+        document.write(eligibility);
+    </script>
+
+
+</body>
+</html>
